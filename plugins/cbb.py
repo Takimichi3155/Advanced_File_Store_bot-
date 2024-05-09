@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "help":
         await query.message.edit_text(
-            text = f"<b>ᴍʏ ꜱᴇɴꜱᴇɪ ~ @obitoXbroken </b>",
+            text = f"<b>ᴍʏ ꜱᴇɴꜱᴇɪ ~ @UCSasuke01 </b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>ᴍʏ ꜱᴇɴꜱᴇɪ ~ <a href=https://t.me/obitoXbroken>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\nᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ~ <a href=https://t.me/AnimeArena01>ᴀɴɪᴍᴇ ᴀʀᴇɴᴀ</a>\nᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ ~ <a href=https://t.me/OngoingArena01>ᴏɴɢᴏɪɴɢ ᴀʀᴇɴᴀ</a></b>",
+            text = f"<b>ᴍʏ ꜱᴇɴꜱᴇɪ ~ <a href=https://t.me/UCSasuke01>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\nᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ~ <a href=https://t.me/AnimeArena01>ᴀɴɪᴍᴇ ᴀʀᴇɴᴀ</a>\nᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ ~ <a href=https://t.me/OngoingArena01>ᴏɴɢᴏɪɴɢ ᴀʀᴇɴᴀ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
