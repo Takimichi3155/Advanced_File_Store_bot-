@@ -10,26 +10,26 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "help":
         await query.message.edit_text(
-            text = f"<b>Bot Cammands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : create link for more than one posts\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast any messages to bot users\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/TeamMayhem>Mayhem™</a></b>",
+            text = f"<b>ᴍʏ ꜱᴇɴꜱᴇɪ ~ @obitoXbroken </b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💥​ᴄʟᴏꜱᴇ​💥", callback_data="close"),
-                        InlineKeyboardButton("⚡ᴀʙᴏᴜᴛ⚡", callback_data="about")
+                        InlineKeyboardButton("​ᴄʟᴏꜱᴇ​", callback_data="close"),
+                        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
                     ]
                 ]
             )
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Owner - <a href=https://t.me/TeamMayhem>Mayhem™</a>\nMy Channel - <a href=https://t.me/Anime_Mayhem>Anime Mayhem</a>\nSupport Group - <a href=https://t.me/Mayhem_Support>Mayhem Support</a>\n\n👨‍💻 Developed by <a href=https://t.me/TeamMayhem>Mayhem™</a></b>",
+            text = f"<b>ᴍʏ ꜱᴇɴꜱᴇɪ ~ <a @obitoXbroken>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\nᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ~ <a href=https://t.me/AnimeArena01>Anime Arena</a>\nOngoing Channel ~ <a href=https://t.me/OngoingArena01>Ongoing Arena</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💥​ᴄʟᴏꜱᴇ​💥", callback_data="close"),
-                        InlineKeyboardButton("🚀ʜᴇʟᴘ🚀", callback_data="help")
+                        InlineKeyboardButton("​ᴄʟᴏꜱᴇ​", callback_data="close"),
+                        InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help")
                     ]
                 ]
             )
